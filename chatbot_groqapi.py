@@ -52,7 +52,7 @@ def get_llm():
         st.stop()
     
     return ChatGroq(
-        model="llama-3.1-70b-versatile",  # Model 70B, mạnh hơn Vicuna-7B nhiều
+        model="llama-3.3-70b-versatile", 
         temperature=0,
         api_key=api_key,
         max_tokens=512
